@@ -18,13 +18,28 @@ function App() {
                 <section className="section">
                     <div className="columns">
                         <div className="column is-3">
-                            <ProfileCard title="Alexa" handle="@alexa99" image={AlexaImage} />
+                            <ProfileCard
+                                title="Alexa"
+                                handle="@alexa99"
+                                image={AlexaImage}
+                                description="Alexa is the Amazon PDA."
+                            />
                         </div>
                         <div className="column is-3">
-                            <ProfileCard title="Cortana" handle="@cortana32" image={CortanaImage} />
+                            <ProfileCard
+                                title="Cortana"
+                                handle="@cortana32"
+                                image={CortanaImage}
+                                description="Cortana is the Microsoft PDA."
+                            />
                         </div>
                         <div className="column is-3">
-                            <ProfileCard title="Siri" handle="@siri01" image={SiriImage} />
+                            <ProfileCard
+                                title="Siri"
+                                handle="@siri01"
+                                image={SiriImage}
+                                description="Siri is the Apple PDA."
+                            />
                         </div>
                     </div>
                 </section>
