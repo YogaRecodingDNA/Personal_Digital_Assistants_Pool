@@ -8,7 +8,7 @@ function App() {
 
     return (
         <div>
-            <div>Personal Digital Assistants</div>
+            
 
             <div className="container">
                 <section className="section">
